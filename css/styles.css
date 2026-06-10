@@ -1,3 +1,65 @@
-h1 {
-    color: red;
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* CORES DE FUNDO */
+.bg-primary-color {
+    background-color: #FFF !important; /* !important força o Bootstrap a obedecer sua cor */
+}
+
+.bg-secondary-color {
+    background-color: #ece8ea !important;
+}
+
+.bg-dark-color {
+    background-color: #050505 !important;
+}
+
+/* CORES DE TEXTO */
+.primary-color {
+    color: #050505 !important; /* Agora os links ficarão pretos! */
+}
+
+.secondary-color {
+    color: #7A7A7A !important;
+}
+
+/* NAVBAR */
+#navbar {     
+    border-bottom: 1px solid #7a7a7a;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand span {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+
+#navbar a:hover {
+    color: #7a7a7a !important;
+}
+
+#navbar a:active,
+#navbar .nav-link.active {
+    border-bottom: 1px solid #050505;
+}
+
+#navbar-items .navbar-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#navbar-items .nav-item{
+    margin: 0 1em;
+}
+
+.navbar-brand img {
+    width: 50px;
+    height: auto;
 }
