@@ -4,24 +4,24 @@ body {
 
 /* CORES DE FUNDO */
 .bg-primary-color {
-    background-color: #FFF !important; /* !important força o Bootstrap a obedecer sua cor */
+    background-color: #FFF ;
 }
 
 .bg-secondary-color {
-    background-color: #ece8ea !important;
+    background-color: #ece8ea;
 }
 
 .bg-dark-color {
-    background-color: #050505 !important;
+    background-color: #050505;
 }
 
 /* CORES DE TEXTO */
 .primary-color {
-    color: #050505 !important; /* Agora os links ficarão pretos! */
+    color: #050505;
 }
 
 .secondary-color {
-    color: #7A7A7A !important;
+    color: #7A7A7A;
 }
 
 /* NAVBAR */
@@ -41,7 +41,7 @@ body {
 }
 
 #navbar a:hover {
-    color: #7a7a7a !important;
+    color: #7a7a7a;
 }
 
 #navbar a:active,
@@ -170,10 +170,10 @@ body {
 
 .title:before {
     width: 75px;
-    border-top: 4px solid #7a7a7a;
+    border-top: 3px solid #7a7a7a;
     content: '';
     position: absolute;
-    bottom: 2em;
+    bottom: 3em;
 }
 
 #featured-images {
@@ -218,4 +218,123 @@ body {
     }
 }
 
+/* INFO */
+
+#info-content {
+    margin-bottom: 4em;
+    padding: 4em 1em;
+}
+
+#info-numbers {
+    margin: 1.5em 0;
+}
+
+#info-banner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5em;
+}
+
+#info-numbers h3 {
+    font-size: 3em;
+}
+
+@media(min-width: 768px) {
+    #info-content {
+        padding: 3.5em;
+    }
+}
+
+/* FOOTER TOP */
+
+#footer { 
+    padding: 3em 2em;
+}
+
+#footer-top {
+    margin-bottom: 2em;
+}
+
+#footer-top,
+#footer-top i {
+    color: #fff;
+}
+
+#social-icons {
+    text-align: right;
+}
+
+#social-icons i {
+    margin-right: 1em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#social-icons i:hover {
+    color: #7a7a7a;
+}
+
+/* FOOTER DETAILS */
+
+#footer-details {
+    margin-bottom: 3em;
+}
+
+#news-container,
+#contact-containser,
+#links-container {
+    padding: 0;
+    border: 0;
+    margin-bottom: 2em;
+}
+
+#footer-details h4 {
+    color: #fff;
+    margin-bottom: 1.5em;
+}
+
+#news-container input {
+    border-radius: 0;
+    border: none;
+}
+
+#links-container li {
+    margin-bottom: 0.5em;
+}
+
+#links-container a {
+    text-decoration: none;
+}
+
+#links-container a:hover {
+    color: #fff;
+}
+
+/* FOOTER BOTTOM */
+
+#footer-bottom {
+    border-top: #7a7a7a;
+    padding-top: 2em;
+}
+
+#footer-bottom i {
+    color: #e61e10;
+    margin-left: 0.3em;
+}
+
+@media(min-width: 768px) {
+    #news-container {
+        padding-right: 2em;
+    }
+
+    #links-container {
+        padding-left: 2em;
+    }
+
+    #contact-container {
+        padding: 0 2em;
+        border-left: 1px solid #7a7a7a;
+        border-right: 1px solid #7a7a7a;
+    }
+}
 
